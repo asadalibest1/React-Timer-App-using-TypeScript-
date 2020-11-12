@@ -9,7 +9,7 @@ scripts:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain:
+  domain: demonic-dock.surge.sh
   project: ./build/
 
 on:
