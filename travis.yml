@@ -2,9 +2,9 @@ language: node_js
 node_js:
       - "stable"
 scripts:
-    - npm install
-    - npm test
-    -npm run build
+    - yarn install
+    - yarn test
+    -yarn run build
 
 deploy:
   provider: surge
