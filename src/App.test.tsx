@@ -8,9 +8,3 @@ test('renders header-one', () => {
 
   expect(linkElement).toBeInTheDocument();
 });
-
-// test('renders input', () => {
-//   const { getByText } = render(<App />);
-//   const linkElement = getByText(/header one/);
-//   expect(linkElement).tobe
-// });
