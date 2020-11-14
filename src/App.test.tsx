@@ -4,7 +4,7 @@ import App from './App';
 
 test('renders header-one', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Header One/i);
+  const linkElement = getByText(/Your application has been successfully deplyed with travis cicd.../i);
 
   expect(linkElement).toBeInTheDocument();
 });
