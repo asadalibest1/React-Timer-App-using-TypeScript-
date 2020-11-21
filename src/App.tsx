@@ -1,5 +1,5 @@
 import React from 'react'
-import App1 from './App1'
+import App1 from './components/App1'
 
 export default function App() {
     return (
