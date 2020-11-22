@@ -64,7 +64,7 @@ return(
        <div className="mobile-phone">
            <img src={require("../images/smart-phone13.png")} className="smart-phone" alt="smart phone png"/>
            <div className="animatedCircle">
-            <div className={(circleAnimate === false) ? "zcode-stop" : "zcode"}>asad</div>
+            <div className={(circleAnimate === false) ? "zcode-stop" : "zcode"}>asadali</div>
 
            <p className="counter">
                 {"0"+hourse}:
