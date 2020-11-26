@@ -12,34 +12,38 @@ export default function App1(){
 
     // const [seconds, setSeconds] = React.useState(0);
 
-    let [timer, seTimer] = React.useState({seconds: 0, minutes: 0, hourse: 0});
+    let [timer, seTimer] = React.useState({mSeconds: 0, seconds: 0, minutes: 0, hourse: 0});
     let [timerFun, setTimerFun] = React.useState({});
 
     // let [seconds, setSeconds] = React.useState(0);
     // let [minutes, setMinutes] = React.useState(0);
     // let [hourse, setHourse] = React.useState(0);
     
-    let {seconds, minutes, hourse} = timer;
+    let {mSeconds, seconds, minutes, hourse} = timer;
     
     function runTimer(){
-                seconds++
-                    if(seconds === 61){
+                mSeconds++
+                    if(mSeconds === 100){
+                        seconds++
+                        mSeconds = 0
+                    }
+                    if(seconds === 60){
                         minutes++
                         seconds = 0;
                     }
-                    if(minutes === 61){
+                    if(minutes === 60){
                         hourse++
                         minutes = 0
                         seconds = 0;
                     }
 
-        return seTimer({seconds, minutes, hourse})
+        return seTimer({mSeconds, seconds, minutes, hourse})
     }
 
 function _play(){
         if(boxShadow !== 2){
             // runTimer();
-            setTimerFun(setInterval(runTimer, 1000))
+            setTimerFun(setInterval(runTimer, 10))
             }
         setBoxShadow(2)
         setCircleAnimate(true);
@@ -54,7 +58,7 @@ function _play(){
 
     function _reset(){
         clearInterval(Number(timerFun));
-            seTimer({seconds: 0, minutes: 0, hourse: 0})
+            seTimer({mSeconds: 0, seconds: 0, minutes: 0, hourse: 0})
 
             setCircleAnimate(false);        
             setBoxShadow(3);
@@ -84,7 +88,7 @@ return(
      
        
         </div>
-        <Miliseconds condition={boxShadow} circleAnimate={circleAnimate} />
+        <Miliseconds  circleAnimate={circleAnimate} mSeconds={mSeconds} />
        <Clock />
     </div>  
     )
