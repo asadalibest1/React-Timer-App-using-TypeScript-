@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-Timer-App-using-TypeScript-/static/css/main.1ef9b867.chunk.css",
+    "main.js": "/React-Timer-App-using-TypeScript-/static/js/main.00870c91.chunk.js",
+    "main.js.map": "/React-Timer-App-using-TypeScript-/static/js/main.00870c91.chunk.js.map",
+    "runtime-main.js": "/React-Timer-App-using-TypeScript-/static/js/runtime-main.54d3ed84.js",
+    "runtime-main.js.map": "/React-Timer-App-using-TypeScript-/static/js/runtime-main.54d3ed84.js.map",
+    "static/js/2.4b2a6b81.chunk.js": "/React-Timer-App-using-TypeScript-/static/js/2.4b2a6b81.chunk.js",
+    "static/js/2.4b2a6b81.chunk.js.map": "/React-Timer-App-using-TypeScript-/static/js/2.4b2a6b81.chunk.js.map",
+    "index.html": "/React-Timer-App-using-TypeScript-/index.html",
+    "precache-manifest.c62a48e72af6d3c184392f78e0d80a1a.js": "/React-Timer-App-using-TypeScript-/precache-manifest.c62a48e72af6d3c184392f78e0d80a1a.js",
+    "service-worker.js": "/React-Timer-App-using-TypeScript-/service-worker.js",
+    "static/css/main.1ef9b867.chunk.css.map": "/React-Timer-App-using-TypeScript-/static/css/main.1ef9b867.chunk.css.map",
+    "static/js/2.4b2a6b81.chunk.js.LICENSE.txt": "/React-Timer-App-using-TypeScript-/static/js/2.4b2a6b81.chunk.js.LICENSE.txt",
+    "static/media/disko.jpg": "/React-Timer-App-using-TypeScript-/static/media/disko.2f3da5be.jpg",
+    "static/media/diskoAnime.webp": "/React-Timer-App-using-TypeScript-/static/media/diskoAnime.2986f593.webp",
+    "static/media/play.png": "/React-Timer-App-using-TypeScript-/static/media/play.8a9beb62.png",
+    "static/media/reset.png": "/React-Timer-App-using-TypeScript-/static/media/reset.dfbe4a74.png",
+    "static/media/smart-phone13.png": "/React-Timer-App-using-TypeScript-/static/media/smart-phone13.4b0b199e.png",
+    "static/media/stop.png": "/React-Timer-App-using-TypeScript-/static/media/stop.464e2bc2.png",
+    "static/media/App1.css": "/React-Timer-App-using-TypeScript-/static/media/wal.c83c57ad.jpg",
+    "static/media/waterFire.gif": "/React-Timer-App-using-TypeScript-/static/media/waterFire.1440f9ca.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54d3ed84.js",
+    "static/js/2.4b2a6b81.chunk.js",
+    "static/css/main.1ef9b867.chunk.css",
+    "static/js/main.00870c91.chunk.js"
+  ]
+}

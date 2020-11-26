@@ -8,10 +8,9 @@ scripts:
     - yarn build
 
 deploy:
-  provider: surge
+  provider: pages
   skip_cleanup: true
-  domain: demonic-dock.surge.sh
-  project: ./build/
-
+  github_token: $GITHUB_TOKEN
+  local-dir: build
 on:
   branch: master

@@ -10,15 +10,8 @@ export default function App1(){
     const [circleAnimate, setCircleAnimate] = React.useState(false);
     const [boxShadow, setBoxShadow] = React.useState(0);
 
-    // const [seconds, setSeconds] = React.useState(0);
-
     let [timer, seTimer] = React.useState({mSeconds: 0, seconds: 0, minutes: 0, hourse: 0});
     let [timerFun, setTimerFun] = React.useState({});
-
-    // let [seconds, setSeconds] = React.useState(0);
-    // let [minutes, setMinutes] = React.useState(0);
-    // let [hourse, setHourse] = React.useState(0);
-    
     let {mSeconds, seconds, minutes, hourse} = timer;
     
     function runTimer(){
@@ -75,7 +68,6 @@ return(
                 {(minutes <= 9) ? "0"+minutes : minutes}:
                 {(seconds <= 9) ? "0"+seconds : seconds}
            </p>
-           {/* {console.log(hourse, minutes, seconds)} */}
            </div>
 
             <Recent />
