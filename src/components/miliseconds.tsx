@@ -1,38 +1,12 @@
 import React from 'react'
 
-export default function Miliseconds(props: any){
-//         let [mSeconds, setmSeconds] = React.useState(0);
-//         const [mFun, setmFun] = React.useState();
+export default function MiliSeconds(props: any) {
+  const { miliSeconds } = props;
 
-// React.useEffect(()=>{
-//     if(props.condition === 2 && props.circleAnimate === true){
-//           setmFun(setInterval(mSecondsInterval, 17))
-//      }
-         
-// },[props.circleAnimate])
-
-// if(props.condition === 1){
-//     clearInterval(Number(mFun));
-//     // stop
-// }
-// if(props.condition === 3){
-//     clearInterval(mFun);
-//     mSeconds = 0;
-//     // reset
-// }
-
-// function mSecondsInterval(){
-//     if(mSeconds !== 61){
-//         mSeconds++
-//     }else{
-//         mSeconds = 0
-//     }
-//     setmSeconds(mSeconds)
-// }
-return (
-        <div className="starter">
-        <img src={require((props.circleAnimate === false) ? "../images/clocks/disko.jpg" : "../images/clocks/diskoAnime.webp")} alt="deskoAnime"/>
-         <span>{props.mSeconds}</span>
-        </div>
-    )
+  return (
+    <div className="starter">
+      <img src={require((props.circleAnimate === false) ? "../images/clocks/disko.jpg" : "../images/clocks/diskoAnime.webp")} alt="deskoAnime" />
+      <span>{miliSeconds}</span>
+    </div>
+  )
 }
