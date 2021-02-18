@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.loading{
+    text-align: center;
+    margin-top: 37vh;    
+    font-size: 42px;
+    font-family: 'Pacifico', cursive;
+}
+.librarie{
+        width: 370px;
+        border: 1px solid purple;
+        margin: auto;
+        margin-top: 10vh;
+        border-radius: 5px;
+
+}
+.librarie h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: purple;
+}
+.librarie input{
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 3px;
+    border: 1px solid purple;
+}
+.librarie ul{
+    /* border: 1px solid purple; */
+    height: 38vh;
+    overflow: auto;
+    padding: 0;
+}
+.librarie ul li{
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    /* width: 100%; */
+    text-align: center;
+    margin: 20px;
+    border-radius: 3px;
+    border: 1px solid purple;
+    list-style: none;
+}
+.librarie ul li span{
+    margin-left: 15px;
+}
+
+.librarie button{
+    font-size: 20px;
+    width: 255px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 3px;
+    border: 1px solid purple;
+    margin-bottom: 20px;
+
+}
